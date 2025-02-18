@@ -1,0 +1,94 @@
+<html lang="en" xmlns:th="https://thymeleaf.org" >
+<html>
+
+<head>
+    <title>The jQuery Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <h1 id="head" class="big">jQuery Basic Syntax</h1>
+    <div class="classname">
+        <p>This is p tag</p>
+    </div>
+    
+
+    <div class="mouse">
+        <form>
+            <label for="name">Name :</label>
+            <input id="name" name="name" type="text">
+            <br><br>
+            <label for="password">Password :</label>
+            <input id="password" type="text">
+            <br><br>
+            <label for="username">Username :</label>
+            <input id="username" type="text">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+
+                
+                <option value="male" >Male</option>
+                <option value="female"selected>Female</option>
+            </select>
+        
+        </form>
+
+        <div>
+            <p>Click the below button to see the result:</p>   
+            <button type="button" id="createUser">create user</button>
+			<button type="button" id="createtodo ">create todo</button>
+			
+			
+        </div>
+    </div>
+
+
+
+
+</body>
+<style>
+    .box1 {
+        background-color: rgb(15, 51, 230);
+        height: 90px;
+        width: 100px;
+    }
+
+    .box2 {
+        background-color: rgb(219, 17, 47);
+        height: 90px;
+        width: 100px;
+    }
+
+    .box3 {
+        background-color: rgb(0, 180, 33);
+        height: 90px;
+        width: 100px;
+    }
+
+    .big{ font-weight: bold; font-size:20px; }
+   .small{ font-weight: normal; font-size:10px; }
+
+    .mouse {
+        margin: 10px;
+        padding: 12px;
+        border: 2px solid #666;
+        width: auto;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        cursor: pointer
+    }
+
+    .box {
+        display: flex;
+        justify-content: space-between;
+
+    }
+</style>
+
+<script src="/todoscript.js"></script>
+</html>
+<html>
